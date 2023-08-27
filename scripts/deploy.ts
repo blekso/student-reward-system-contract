@@ -6,7 +6,7 @@ async function main() {
 
   const tx = await deploy("Reward", {
     from: deployer,
-    args: ["https://pastebin.com/raw/EYHeFTXU", 100],
+    args: ["https://studoreward.xyz/api/reward/metadata/cinestar/", 100],
   });
 
   console.log(`Deployed to: ${tx.address}`);

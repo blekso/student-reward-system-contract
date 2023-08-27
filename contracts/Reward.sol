@@ -30,10 +30,6 @@ contract Reward is ERC721URIStorage, Ownable {
         baseTokenURI = _newBaseTokenURI;
     }
 
-    function _baseURI() internal view override returns (string memory) {
-        return baseTokenURI;
-    }
-
     function claim() external payable {
         require(_tokenIdCounter.current() < maxTokens, "All tokens claimed");
 
