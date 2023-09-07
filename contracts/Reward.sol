@@ -23,7 +23,6 @@ contract Reward is ERC721URIStorage, Ownable {
         _tokenIdCounter.increment();
     }
 
-    //test
     function setBaseTokenURI(
         string memory _newBaseTokenURI
     ) external onlyOwner {

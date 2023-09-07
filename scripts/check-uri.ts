@@ -4,7 +4,7 @@ async function main() {
   //const deployment = await deployments.get("Reward");
   const contract = await ethers.getContractAt(
     "Reward",
-    "0xe0f001e2e5778b62c18020f9278697d47f3366d5"
+    "0x63de1209f9470866da4ec357c78f22ec69aaa1a7"
   );
 
   /* const tx = await contract.setBaseTokenURI(
